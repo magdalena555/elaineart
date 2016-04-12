@@ -1,0 +1,115 @@
+.bio{
+	padding: 0 10%;
+	.bio-wrapper{
+		display: flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		padding: 5%;
+		.bio-image{
+			width:40%;
+			img{
+				margin:0 auto;
+				display: block;
+			}
+		}
+		.bio-content{
+			width:60%;
+			padding:0 5%;
+			h3{
+				font-size: 16px;
+				line-height: 32px;
+				letter-spacing: .1em;
+				text-transform: uppercase;
+				text-align: center;
+				font-weight:200;
+
+			}
+			h3::after{
+				content: '';
+				display: block;
+				width: 10px;
+				height: 1px;
+				background: #000;
+				margin: 20px auto;
+			}
+			h4{
+				font-size: 16px;
+				line-height: 32px;
+				letter-spacing: 0;
+				font-weight: 400;
+				font-style: italic;
+				text-align: center;
+			}
+			.bio-text{
+				font-size: 13px;
+				line-height: 200%;
+				text-align: left;
+				margin: 30px 0px;
+
+			}
+		}
+	}
+	.studio{
+		h4{
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.studio-wrapper{
+			display: flex;
+			justify-content:center;
+			flex-wrap: wrap;
+			img{
+				padding:20px;
+			}
+		}
+	}
+}
+
+// Responsive design
+@media all and (max-width: 1100px) { 
+	.bio .studio .studio-wrapper {
+	    flex-wrap: wrap;
+	    flex-direction: row;
+	}
+}
+
+@media all and (max-width: 1024px) { 
+	.bio .bio-wrapper {
+	    flex-direction:column;
+	}
+	.bio .bio-wrapper .bio-image {
+	    width: 100%;
+	}
+	.bio .bio-wrapper{
+		padding:0;
+	}
+	.bio .bio-wrapper .bio-content {
+	    width: 100%;
+	    padding:0;
+	}
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+	.bio {
+	    padding: 1%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.bio .studio .studio-wrapper img {
+	    padding: 2%;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

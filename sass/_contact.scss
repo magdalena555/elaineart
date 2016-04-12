@@ -1,0 +1,118 @@
+.contact{
+	padding:5% 10%;
+	.contact-wrapper{
+		display: flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		.contact-content{
+            padding:0 3%;
+            .title{
+            padding: 0;
+            margin: 0 0 30px;
+            color: inherit;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            text-align: center;
+            }
+            .title:after{
+                content: '';
+                display: block;
+                width: 10px;
+                height: 1px;
+                background: #000;
+                margin: 20px auto;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            p{
+                text-align: center;
+                color: inherit;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 0;
+                font-weight: 400;
+            }
+		}
+		.contact-image{
+			// width:40%;
+			img{
+				margin:0 auto;
+                display: block;
+			}
+		}
+	}
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+    border: solid 1px #000;
+}
+
+input[type=submit] {
+    color: #333;
+    border-radius: 0;
+    vertical-align: top;
+    background-color: transparent;
+    border: 1px solid #000;
+    height: 33px;
+    line-height: 33px;
+    width: auto;
+    padding: 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    margin: 0 auto;
+    display: block;
+    background: transparent;
+    width:150px;
+    transition: all .5s ease-in-out;
+    
+}
+input[type=submit]:hover {
+    background: #71c0c0;
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+    .contact {
+        padding: 5%;
+    }
+    .contact .contact-wrapper {
+      
+        flex-direction: column;
+    }
+    .contact .contact-wrapper .contact-content {
+        padding: 0;
+    }
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 667px) {
+    .contact {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

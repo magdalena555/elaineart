@@ -1,0 +1,43 @@
+footer {
+	height:100px;
+	.footer-wrapper{
+		display:flex;
+		align-items: center;
+		height:100%;
+		p{
+			margin:0 auto;
+			font-style: italic;
+			font-size:12px;
+		}
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	footer {
+	    height: 75px;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

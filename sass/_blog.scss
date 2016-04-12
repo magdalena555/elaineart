@@ -1,0 +1,82 @@
+
+.blog-main{
+	padding:5% 10%;
+	h3{
+		text-align: center;
+	}
+	.blog-parent{
+		display:flex;
+		flex-direction:row;
+		padding-bottom: 5%;
+		.blog-image{
+			width:50%;
+			img{
+				display: block;
+				margin:0 auto;
+				// width:100%;
+				
+			}
+		}
+		.post{
+			width:50%;
+			a{
+				color:#4b8080;
+				text-decoration: none;
+			}
+		}
+		.post-content{
+			padding: 0 5%;
+			width:50%;
+			a{
+				color:#4b8080;
+				text-decoration: none;
+			}
+		}
+	}
+	
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.blog-main {
+	    padding: 5%;
+	}
+}
+@media all and (max-width: 940px) { 
+		.blog-main .blog-parent {
+	    	flex-direction: column;
+		}
+		.blog-main .blog-parent .blog-image {
+		    width: auto;
+		    margin: 0 auto;
+		}
+		.blog-main .blog-parent .post-content {
+		    padding: 5%;
+		    width: 100%;
+		}
+
+}
+
+@media all and (max-width: 768px) {
+	.blog-main .blog-parent .blog-image {
+	    width: auto;
+	    margin: 0 ;
+	}		
+}
+
+@media all and (max-width: 667px) {
+	.blog-main {
+	    padding: 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,135 @@
+.single-artwork-page{
+	padding:0 10%;
+	.single-artwork-wrapper{
+		h2{
+			padding: 0;
+			margin: 0;
+			font-size: 16px;
+			line-height: 32px;
+			letter-spacing: .1em;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 300;
+		}
+
+	}
+}
+
+.large-gallery{
+	width:100%;
+	padding:10px 0 0 0;
+	.large-image-container{
+		width:100%;
+		position:relative;
+		.large-image{
+			align-items:center;
+			height:500px;
+			display:flex;
+			img{
+				margin:0 auto;
+				display: block;
+
+			}
+		}
+		
+		.single-image-content{
+			color: #000;
+			display: flex;
+			justify-content: center;
+			
+			p{
+				margin:0;
+				padding: 20px 10px;
+				text-transform: uppercase;
+				font-size: 12px;
+
+			}
+		}
+
+	}
+}
+.small-gallery{
+	width:100%;
+	padding: 10px 0;
+	.small-image-container{
+		margin: 10px;
+		width:120px;
+		height:100px;
+		img {
+			width:100%;
+		}
+	}
+}
+
+.carousel-nav .carousel-cell.is-nav-selected {
+  background: #ED2;
+}
+.flickity-prev-next-button{
+	background:black;
+}
+.flickity-prev-next-button{
+	background: black;
+}
+.artwork-description{
+	padding:2% 0;
+	h4{
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+		line-height: 32px;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 300;
+		
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.single-artwork-page {
+	    padding: 0 5%;
+	    .single-artwork-wrapper .small-gallery{
+	    	display: none;
+	    }
+	}
+
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.flickity-viewport{
+		height:500px;
+	}
+	.large-gallery .large-image-container .large-image {
+	   
+	    height: 500px;
+	}
+	.large-gallery .large-image-container .single-image-content {
+	    flex-direction: column;
+	}
+	.large-gallery .large-image-container .single-image-content p {
+	    padding:0;
+	    text-align: center;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.single-artwork-page {
+	    padding: 2%;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

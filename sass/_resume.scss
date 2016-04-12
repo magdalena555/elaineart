@@ -1,0 +1,46 @@
+
+
+.resume{
+	padding:0 10%;
+	.resume-content{
+		font-size: 13px;
+		line-height: 200%;
+		text-align: left;
+		margin: 0 0 25px;
+		margin: 0 auto;
+		max-width: 900px;
+		display: block;
+	}
+}
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.resume, .single-artwork-page {
+	    padding: 5%;
+	}
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.resume, .single-artwork-page {
+	    padding: 2%;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
